@@ -15,19 +15,16 @@ import friends, { webIcon } from './friends'
 
 const members = [
     {
-    name: '北雁云依',
+    name: '特菈',
     links: [
       {
         icon: "github",
-        link: "https://github.com/beiyanyunyi"
+        link: "https://github.com/Dustella"
       },{
       icon: webIcon,
-      link: 'https://me.penclub.club/',
-    },{
-      icon: "twitter",
-      link:"https://twitter.com/t12345tt"
+      link: 'https://dustella.net',
     }],
-    avatar: 'https://img-cdn.dustella.net/byyy-avtr.png',
+    avatar: 'https://img-cdn.dustella.net/avtr.jpg',
     desc: '嘿嘿，这是我家某位',
   },
   ...friends.sort(()=> Math.random() - 0.5 )
