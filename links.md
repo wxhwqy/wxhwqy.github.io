@@ -25,7 +25,7 @@ const members = [
       link: 'https://dustella.net',
     }],
     avatar: 'https://img-cdn.dustella.net/avtr.jpg',
-    desc: '嘿嘿，这是我家某位',
+    desc: '特菈咕噜咕噜',
   },
   ...friends.sort(()=> Math.random() - 0.5 )
 ]
